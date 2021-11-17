@@ -1,0 +1,10 @@
+987 / 987 test cases passed.
+Status: Accepted
+Runtime: 856 ms
+Memory Usage: 17.1 MB
+
+You are here!
+Your runtime beats 7.46 % of python3 submissions.
+
+
+
