@@ -1,18 +1,34 @@
 {
-    "version": "0.2.0",
+    "version": "0.2.0",  
     "configurations": [
         {
             // Use IntelliSense to find out which attributes exist for C# debugging
             // Use hover for the description of the existing attributes
             // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
-            "name": ".NET Core Launch (console)",
+            "name": "Debug Problem 1",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build",
+            "preLaunchTask": "build P1",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/LeetCode/C#/Problem1_TwoSum/bin/Debug/net6.0/Problem1_TwoSum.dll",
+            "program": "${workspaceFolder}/LeetCode/P1_TwoSum/Solutions/C#/TwoSum/bin/Debug/net6.0/Problem1_TwoSum.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/LeetCode/C#/Problem1_TwoSum",
+            "cwd": "${workspaceFolder}/LeetCode/P1_TwoSum/Solutions/C#/TwoSum",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "internalConsole",
+            "stopAtEntry": false
+        }, 
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": "Debug Problem 2",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build P2",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/LeetCode/P2_AddTwoNumber/Solutions/C#/AddTwoNumber/bin/Debug/net6.0/AddTwoNumber.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/LeetCode/P2_AddTwoNumber/Solutions/C#/AddTwoNumber",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false

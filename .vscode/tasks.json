@@ -2,12 +2,23 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build",
+            "label": "build P1",
             "command": "dotnet",
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/LeetCode/C#/Problem1_TwoSum/Problem1_TwoSum.csproj",
+                "${workspaceFolder}/LeetCode/P1_TwoSum/Solutions/C#/TwoSum/Problem1_TwoSum.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        }, {
+            "label": "build P2",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/LeetCode/P2_AddTwoNumber/Solutions/C#/AddTwoNumber/AddTwoNumber.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +30,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/LeetCode/C#/Problem1_TwoSum/Problem1_TwoSum.csproj",
+                "${workspaceFolder}/LeetCode/P1_TwoSum/Solutions/C#/TwoSum/Problem1_TwoSum.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
