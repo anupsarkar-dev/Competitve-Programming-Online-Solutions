@@ -1,6 +1,4 @@
-Submission Performance : C#
---------------------------
-Runtime: 84 ms, faster than 97.79% of C# online submissions for Add Two Numbers.
-Memory Usage: 41.2 MB, less than 12.82% of C# online submissions for Add Two Numbers.
-
-
+57 / 57 test cases passed.
+Status: Accepted
+Runtime: 456 ms
+Memory Usage: 43.8 MB

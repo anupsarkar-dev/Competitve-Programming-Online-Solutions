@@ -35,6 +35,7 @@ ListNode AddTwoNumbers(ListNode l1, ListNode l2)
             currentElem = currentElem.next;
         }
 
+        // Doing this just to release some memory 
         if( l1 is not null) l1.val = 0;
         if( l2 is not null) l2.val = 0;
         
