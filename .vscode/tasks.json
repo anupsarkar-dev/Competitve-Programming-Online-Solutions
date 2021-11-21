@@ -12,13 +12,27 @@
                 "/consoleloggerparameters:NoSummary"
             ],
             "problemMatcher": "$msCompile"
-        }, {
+        }, 
+        {
             "label": "build P2",
             "command": "dotnet",
             "type": "process",
             "args": [
                 "build",
                 "${workspaceFolder}/LeetCode/P2_AddTwoNumber/Solutions/C#/AddTwoNumber/AddTwoNumber.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+        , 
+        {
+            "label": "build P3",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/LeetCode/P3_LongestSubStrWithourRepeatingChar/Solutions/C#/LongestSubStrWithourRepeatingChar/LongestSubStrWithourRepeatingChar.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],

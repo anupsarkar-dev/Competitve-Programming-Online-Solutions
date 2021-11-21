@@ -1,0 +1,4 @@
+Submission Performance : C#
+--------------------------
+Runtime: 159 ms, faster than 26.76% of C# online submissions for Longest Substring Without Repeating Characters.
+Memory Usage: 36 MB, less than 59.69% of C# online submissions for Longest Substring Without Repeating Characters.
