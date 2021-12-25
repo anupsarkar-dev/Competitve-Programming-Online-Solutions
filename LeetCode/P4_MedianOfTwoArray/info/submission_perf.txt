@@ -1,0 +1,4 @@
+Submission Performance : C#
+--------------------------
+Runtime: 216 ms, faster than 5.18% of C# online submissions for Median of Two Sorted Arrays.
+Memory Usage: 38.2 MB, less than 61.60% of C# online submissions for Median of Two Sorted Arrays.

@@ -1,11 +1,12 @@
 ﻿
 //https://leetcode.com/problems/two-sum/
+ 
+
+var input = new[] { 2,2,7,11,15}; // target 26
+var input2 = new[] { 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 7, 1, 1, 1, 1, 1 };
 
 
-var input = new[] { 2,2,7,11,15};
-
-
-var output = TwoSum(input, 26);
+var output = TwoSum(input2, 11);
 
 
 foreach (var item in output) Console.Write(" " + item);
@@ -19,20 +20,21 @@ int[] TwoSum(int[] nums, int target)
 
     for (int i = 0; i < nums.Length; i++)
     {
-        int find = target - nums[i];
+        var find = target - nums[i];
 
-        if (hashMap.ContainsKey(nums[i]))
+        if (hashMap.ContainsKey(find))
         {      
-            hashMap.TryGetValue(nums[i],out int  val);
-            return new int[] { val, i };
+            return new int[] { hashMap[find], i };
 
         }else
         {
-          hashMap.TryAdd(find,i);         
+            if(!hashMap.ContainsKey(nums[i]))
+            {
+                hashMap.Add(nums[i],i);  
+            }
+                  
         }
     }
-
       return new int[] { };
-
 }
 

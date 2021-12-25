@@ -39,6 +39,32 @@
             "problemMatcher": "$msCompile"
         },
         {
+            "label": "build P4",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/LeetCode/P4_MedianOfTwoArray/Solutions/C#/MedianOfTwoArray/MedianOfTwoArray.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+        ,
+        {
+            "label": "build P5",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/LeetCode/P5_LongestPalindromicSubstring/Solutions/C#/LongestPalindromicSubstring/LongestPalindromicSubstring.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+        ,
+        {
             "label": "publish",
             "command": "dotnet",
             "type": "process",
